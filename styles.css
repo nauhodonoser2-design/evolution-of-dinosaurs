@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rubik+Moonrocks&display=swap");
+body {
+  font-family:
+    Great Vibes,
+    sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(image/header-bg-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: black;
+}
+h1,
+h2,
+h3 {
+  color: Crimson;
+  font-family:
+    Rubik Moonrocks,
+    sans-serif;
+}
+p {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 0 0 12px 0;
+}
+img {
+  border: 3px solid rgb(255, 255, 255);
+}
+
+nav {
+  background-color: rgb(88, 85, 85);
+  padding: 14px 24px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 24px;
+  font-size: 24px;
+}
+.page-header {
+  background-color: rgb(236, 91, 91);
+  padding: 50px 20px;
+  color: white;
+  text-align: center;
+  background-image: url(image/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.page-header h1 {
+  font-size: 3.4em;
+  margin: 0 0 10px 0;
+}
+.page-header p {
+  font-size: 1.5em;
+  margin: 0;
+}
+.container {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.recipe-card {
+  background-image: url(image/header-bg-2.jpg);
+  border: 1px solid rgb(88, 85, 85);
+  border-left: 5px solid rgb(88, 85, 85);
+  padding: 16px;
+  margin: 20px 0;
+  overflow: hidden;
+}
+.recipe-card img {
+  float: left;
+  margin: 0 16px 8px 0;
+}
+.recipe-card h2 {
+  margin-top: 0 0 8px 0;
+  color: blue;
+}
+.button {
+  background-color: #ac4caf;
+  border-radius: 12px;
+  color: white;
+  border: 2px solid #555555;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.dish-photo {
+  width: 800px;
+  margin: 16px 0;
+}
+.description li {
+  font-size: 20px;
+  margin-bottom: 4px;
+  color: #000ece;
+}
+.peculiarities {
+  margin: 0 0 20px 0;
+  padding-left: 24px;
+}
+.peculiarities li {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #000ece;
+}
+.back-link {
+  background-color: #2c1810;
+  color: wheat;
+  text-decoration: none;
+  padding: 8px 18px;
+  font-size: 14px;
+}
