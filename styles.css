@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rubik+Moonrocks&display=swap");
 body {
-  font-family:
-    "great vibes",
-    "sans-serif";
+  font-family: "great vibes", "sans-serif";
   margin: 0;
   padding: 0;
   background-image: url(image/header-bg-3.jpg);
@@ -15,11 +13,9 @@ h1,
 h2,
 h3 {
   color: crimson;
-  font-family:
-    "rubik moonrocks",
-    "sans-serif";
-    font-style: normal;
-    font-weight: 400;
+  font-family: "rubik moonrocks", "sans-serif";
+  font-style: normal;
+  font-weight: 400;
 }
 p {
   font-size: 24px;
@@ -50,7 +46,7 @@ nav a {
   background-position: center;
 }
 .page-header h1 {
-  font-size: clamp(min(5vw, 10rem), 50px, max(3vw, 1.6rem));;
+  font-size: clamp(min(5vw, 10rem), 50px, max(3vw, 1.6rem));
   margin: 0 0 20px 0;
 }
 .page-header p {
@@ -119,7 +115,6 @@ nav a {
 .dish-photo {
   max-width: 100%;
   margin: 16px 0;
-
 }
 .description li {
   font-size: 20px;
